@@ -1,0 +1,82 @@
+[
+  {
+    "total_score": 30,
+    "minimum_admitted_score": 28,
+    "started_at": "12/01/2024: 15:00",
+    "finish_at": "12/01/2024: 15:15",
+    "video": "experience_interview_stefan.mp4",
+    "badges": ["polite", "team player", "funny"],
+    "interview_type": "experience",
+    "challenges": [
+      "d8726857af860f8ba331e624",
+      "b0bd1110a5b88a2095660013",
+      "55d3aee27416d9621e2e60a1"
+    ],
+    "_id": "bd6a276100bce5ce13c4c699",
+    "candidate": "666c9356ff0737771412ea60"
+  },
+  {
+    "total_score": 30,
+    "minimum_admitted_score": 30,
+    "started_at": "12/01/2024: 15:15",
+    "finish_at": "12/01/2024: 16:00",
+    "video": "technical_interview_stefan.mp4",
+    "badges": ["smart"],
+    "interview_type": "technical",
+    "challenges": [],
+    "_id": "57830a7d278f0f013f2a1b62",
+    "candidate": "666c9356ff0737771412ea60"
+  },
+  {
+    "total_score": 30,
+    "minimum_admitted_score": 20,
+    "started_at": "12/01/2024: 16:00",
+    "finish_at": "12/01/2024: 16:20",
+    "video": "practical_interview_stefan.mp4",
+    "badges": ["correct"],
+    "interview_type": "practical",
+    "challenges": [],
+    "_id": "451281302c86a247160685ca",
+    "candidate": "666c9356ff0737771412ea60"
+  },
+  {
+    "total_score": 90,
+    "minimum_admitted_score": 30,
+    "started_at": "12/01/2024: 15:00",
+    "finish_at": "12/01/2024: 15:15",
+    "video": "experience_interview_ionut.mp4",
+    "badges": ["polite", "team player", "funny"],
+    "interview_type": "experience",
+    "challenges": [
+      "5c88fa8cf4afda39709c296f",
+      "5c88fa8cf4afda39709c296e",
+      "5c88fa8cf4afda39709c296d"
+    ],
+    "_id": "5c8a21f22f8fb814b56fa18a",
+    "candidate": "5c8a1d5b0190b214360dc057"
+  },
+  {
+    "total_score": 234,
+    "minimum_admitted_score": 30,
+    "started_at": "12/01/2024: 15:15",
+    "finish_at": "12/01/2024: 16:00",
+    "video": "technical_interview_ionut.mp4",
+    "badges": ["smart"],
+    "interview_type": "technical",
+    "challenges": [],
+    "_id": "5c8a201e2f8fb814b56fa186",
+    "candidate": "5c8a1d5b0190b214360dc057"
+  },
+  {
+    "total_score": 34,
+    "minimum_admitted_score": 20,
+    "started_at": "12/01/2024: 16:00",
+    "finish_at": "12/01/2024: 16:20",
+    "video": "practical_interview_ionut.mp4",
+    "badges": ["correct"],
+    "interview_type": "practical",
+    "challenges": [],
+    "_id": "5c8a23412f8fb814b56fa18c",
+    "candidate": "5c8a1d5b0190b214360dc057"
+  }
+]

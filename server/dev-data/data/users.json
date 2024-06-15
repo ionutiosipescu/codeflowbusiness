@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "5c8a1d5b0190b214360dc057",
+    "name": "Jonas Schmedtmann",
+    "email": "jonas@yahoo.com",
+    "age": "24",
+    "date_of_birth": "24/05/2023",
+    "address": "Home",
+    "photo": "jonas.jpg",
+    "role": "recruiter",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS"
+  },
+  {
+    "_id": "5c8a355b14eb5c17645c9109",
+    "name": "Ionut Iosipescu",
+    "email": "ionutiosipescu@yahoo.com",
+    "age": "24",
+    "date_of_birth": "24/05/2023",
+    "address": "Home",
+    "photo": "ionut.jpg",
+    "role": "admin",
+    "password": "$2a$12$hP1h2pnNp7wgyZNRwPsOTeZuNzWBv7vHmsR3DT/OaPSUBQT.y0S.."
+  },
+  {
+    "_id": "5c8a359914eb5c17645c910a",
+    "name": "Vlad",
+    "email": "vlad@yahoo.com",
+    "age": "24",
+    "date_of_birth": "24/05/2023",
+    "address": "Home",
+    "photo": "vlad.jpg",
+    "role": "candidate",
+    "password": "$2a$12$9nFqToiTmjgfFVJiQvjmreLt4k8X4gGYCETGapSZOb2hHa55t0dDq"
+  }
+]

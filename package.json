@@ -1,0 +1,15 @@
+{
+  "name": "codeflow_business",
+  "version": "1.0.0",
+  "scripts": {
+    "start:dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+    "start:prod": "concurrently \"npm run server:prod\" \"npm run client\"",
+    "server:dev": "cd server && npm run dev",
+    "server:prod": "cd server && npm run prod",
+    "client": "cd client && npm run dev"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5"
+  }
+}

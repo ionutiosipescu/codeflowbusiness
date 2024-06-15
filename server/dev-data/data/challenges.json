@@ -1,0 +1,88 @@
+[
+  {
+    "question": "Tell me about a project you worked on where you faced a difficult technical challenge. How did you approach it, and what did you learn from the experience?",
+    "answer": "I dont work",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 8,
+    "comments": [
+      {
+        "comment": "I wish for a more detailed answer with more examples.",
+        "user": "5c8a1d5b0190b214360dc057",
+        "replies": [
+          {
+            "reply": "Is ok from my side",
+            "user": "5c8a355b14eb5c17645c9109",
+            "_id": "c083c42a2f099d79c3ccb6e9"
+          }
+        ],
+        "_id": "6e564f79c96d446e8a814795"
+      }
+    ],
+    "_id": "d8726857af860f8ba331e624",
+    "interview": "bd6a276100bce5ce13c4c699"
+  },
+  {
+    "question": "Tell me about a project you worked on where you faced a difficult technical challenge. How did you approach it, and what did you learn from the experience?",
+    "answer": "I dont work",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660013",
+    "interview": "bd6a276100bce5ce13c4c699"
+  },
+  {
+    "question": "Tell me about a project you worked on where you faced a difficult technical challenge. How did you approach it, and what did you learn from the experience?",
+    "answer": "I dont work",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "55d3aee27416d9621e2e60a1",
+    "interview": "bd6a276100bce5ce13c4c699"
+  },
+  {
+    "question": "What are you doing this summer ?",
+    "answer": "I will go to beach, to my countryhome and so one",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 8,
+    "comments": [
+      {
+        "comment": "I wish I would became a multimillion",
+        "user": "5c8a1d5b0190b214360dc057",
+        "replies": [
+          {
+            "reply": "So do I mister boss",
+            "user": "5c8a355b14eb5c17645c9109",
+            "_id": "5c88fa8cf4afda39709c2975"
+          }
+        ],
+        "_id": "5c8a22c62f8fb814b56fa18b"
+      }
+    ],
+    "_id": "5c88fa8cf4afda39709c296f",
+    "interview": "5c8a21f22f8fb814b56fa18a"
+  },
+  {
+    "question": "What the heck we are doing here ?",
+    "answer": "I dont know you say",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "5c88fa8cf4afda39709c296e",
+    "interview": "5c8a21f22f8fb814b56fa18a"
+  },
+  {
+    "question": "Did you watch the new sow named The Rockie",
+    "answer": "Yes is sick I watch it with my girl",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "5c88fa8cf4afda39709c296d",
+    "interview": "5c8a21f22f8fb814b56fa18a"
+  }
+]
