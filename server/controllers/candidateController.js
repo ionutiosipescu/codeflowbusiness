@@ -14,8 +14,7 @@ exports.updateCandidateInterviews = async (
 
 exports.aliasTopCandidates = (req, res, next) => {
   req.query.limit = '3';
-  req.query.sort = '-duration,difficulty';
-  req.query.fields = 'price';
+  req.query.sort = '-total_score';
   next();
 };
 
@@ -104,14 +103,12 @@ exports.deleteCandidate = catchAsync(async (req, res, next) => {
 exports.getCandidateStats = catchAsync(async (req, res) => {
   const stats = await Candidate.aggregate([
     {
-      $match: { price: { $gte: 100 } },
-    },
-    {
       $group: {
         _id: null,
         numCandidates: { $sum: 1 },
-        avgPrice: { $avg: '$price' },
-        avgDuration: { $avg: '$duration' },
+        avgRate: { $avg: '$rate' },
+        avgExperience: { $avg: '$experience' },
+        avgAge: { $avg: '$age' },
       },
     },
   ]);

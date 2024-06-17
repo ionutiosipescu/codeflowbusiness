@@ -1,7 +1,8 @@
 [
   {
     "total_score": 30,
-    "minimum_admitted_score": 28,
+    "available_points": 30,
+    "minimum_admitted_score": 20,
     "started_at": "12/01/2024: 15:00",
     "finish_at": "12/01/2024: 15:15",
     "video": "experience_interview_stefan.mp4",
@@ -16,8 +17,9 @@
     "candidate": "666c9356ff0737771412ea60"
   },
   {
-    "total_score": 30,
-    "minimum_admitted_score": 30,
+    "total_score": 0,
+    "available_points": 0,
+    "minimum_admitted_score": 20,
     "started_at": "12/01/2024: 15:15",
     "finish_at": "12/01/2024: 16:00",
     "video": "technical_interview_stefan.mp4",
@@ -28,7 +30,8 @@
     "candidate": "666c9356ff0737771412ea60"
   },
   {
-    "total_score": 30,
+    "total_score": 0,
+    "available_points": 0,
     "minimum_admitted_score": 20,
     "started_at": "12/01/2024: 16:00",
     "finish_at": "12/01/2024: 16:20",
@@ -40,8 +43,9 @@
     "candidate": "666c9356ff0737771412ea60"
   },
   {
-    "total_score": 90,
-    "minimum_admitted_score": 30,
+    "total_score": 30,
+    "available_points": 30,
+    "minimum_admitted_score": 20,
     "started_at": "12/01/2024: 15:00",
     "finish_at": "12/01/2024: 15:15",
     "video": "experience_interview_ionut.mp4",
@@ -56,8 +60,9 @@
     "candidate": "5c8a1d5b0190b214360dc057"
   },
   {
-    "total_score": 234,
-    "minimum_admitted_score": 30,
+    "total_score": 0,
+    "available_points": 0,
+    "minimum_admitted_score": 20,
     "started_at": "12/01/2024: 15:15",
     "finish_at": "12/01/2024: 16:00",
     "video": "technical_interview_ionut.mp4",
@@ -68,7 +73,8 @@
     "candidate": "5c8a1d5b0190b214360dc057"
   },
   {
-    "total_score": 34,
+    "total_score": 0,
+    "available_points": 0,
     "minimum_admitted_score": 20,
     "started_at": "12/01/2024: 16:00",
     "finish_at": "12/01/2024: 16:20",

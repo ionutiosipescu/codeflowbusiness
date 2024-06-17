@@ -28,11 +28,11 @@ const candidateSchema = new mongoose.Schema({
     type: String,
     default: 'default.jpg',
   },
-  experience: String,
+  experience: Number,
   last_position: String,
   last_company: String,
   rate: {
-    type: String,
+    type: Number,
     required: true,
   },
   interviews: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Interview' }],
@@ -42,6 +42,8 @@ const candidateSchema = new mongoose.Schema({
     default: Date.now(),
     select: false,
   },
+  total_score: { type: Number, default: 0 },
+  available_points: { type: Number, default: 0 },
 });
 
 // Delete Candidate and All Related Interviews & Challenges

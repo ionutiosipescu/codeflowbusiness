@@ -5,8 +5,8 @@ const Candidate = require('./../../models/candidateModel');
 const User = require('./../../models/userModel');
 const Interview = require('./../../models/interviewModel');
 const Challenge = require('./../../models/challengeModel');
-const Comment = require('./../../models/commentModel');
-const Reply = require('./../../models/replyModel');
+// const Comment = require('./../../models/commentModel');
+// const Reply = require('./../../models/replyModel');
 
 dotenv.config({ path: './config.env' });
 

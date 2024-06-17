@@ -13,7 +13,7 @@ const candidateRouter = require('./routes/candidateRoutes');
 const userRouter = require('./routes/userRoutes');
 const interviewRouter = require('./routes/interviewRoutes');
 const challengeRouter = require('./routes/challengesRoutes');
-const commentRouter = require('./routes/commentRoutes');
+// const commentRouter = require('./routes/commentRoutes');
 
 const app = express();
 
@@ -59,7 +59,7 @@ app.use('/api/v1/candidates', candidateRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/interviews', interviewRouter);
 app.use('/api/v1/challenges', challengeRouter);
-app.use('/api/v1/comments', commentRouter);
+// app.use('/api/v1/comments', commentRouter);
 
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
