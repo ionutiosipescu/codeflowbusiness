@@ -5,6 +5,7 @@ const Candidate = require('./../../models/candidateModel');
 const User = require('./../../models/userModel');
 const Interview = require('./../../models/interviewModel');
 const Challenge = require('./../../models/challengeModel');
+const Job = require('./../../models/jobModel');
 // const Comment = require('./../../models/commentModel');
 // const Reply = require('./../../models/replyModel');
 
@@ -34,6 +35,7 @@ const interviews = JSON.parse(
 const challenges = JSON.parse(
   fs.readFileSync(`${__dirname}/challenges.json`, 'utf-8'),
 );
+const jobs = JSON.parse(fs.readFileSync(`${__dirname}/jobs.json`, 'utf-8'));
 // const comments = JSON.parse(
 //   fs.readFileSync(`${__dirname}/comments.json`, 'utf-8'),
 // );
@@ -49,6 +51,7 @@ const importData = async () => {
     await Candidate.create(candidates);
     await Interview.create(interviews);
     await Challenge.create(challenges);
+    await Job.create(jobs);
     // await Comment.create(comments);
     // await Reply.create(replies);
     console.log('Data successfully loaded!');
@@ -65,6 +68,7 @@ const deleteData = async () => {
     await Candidate.deleteMany();
     await Interview.deleteMany();
     await Challenge.deleteMany();
+    await Job.deleteMany();
     // await Comment.deleteMany();
     // await Reply.deleteMany();
     console.log('Data successfully deleted!');
