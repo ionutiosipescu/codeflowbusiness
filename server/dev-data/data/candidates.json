@@ -18,7 +18,8 @@
     "assignees": ["5c8a1d5b0190b214360dc057"],
     "total_score": 30,
     "available_points": 30,
-    "_id": "666c9356ff0737771412ea60"
+    "_id": "666c9356ff0737771412ea60",
+    "approve_offer": false
   },
   {
     "name": "Ionut",
@@ -39,6 +40,7 @@
     "assignees": ["5c8a1d5b0190b214360dc057"],
     "total_score": 30,
     "available_points": 30,
-    "_id": "5c8a1d5b0190b214360dc057"
+    "_id": "5c8a1d5b0190b214360dc057",
+    "approve_offer": false
   }
 ]

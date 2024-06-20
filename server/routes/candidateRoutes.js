@@ -2,10 +2,13 @@ const express = require('express');
 
 const candidateController = require('../controllers/candidateController');
 const interviewRouter = require('../routes/interviewRoutes');
+const authController = require('./../controllers/authController');
 
 const router = express.Router();
 
 router.use('/:candidateId/interviews', interviewRouter);
+
+router.use(authController.protect);
 
 router
   .route('/top-3-candidates')

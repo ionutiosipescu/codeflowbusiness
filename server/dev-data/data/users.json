@@ -8,6 +8,7 @@
     "address": "Home",
     "photo": "jonas.jpg",
     "role": "recruiter",
+    "active": true,
     "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS"
   },
   {
@@ -19,6 +20,7 @@
     "address": "Home",
     "photo": "ionut.jpg",
     "role": "admin",
+    "active": true,
     "password": "$2a$12$hP1h2pnNp7wgyZNRwPsOTeZuNzWBv7vHmsR3DT/OaPSUBQT.y0S.."
   },
   {
@@ -30,6 +32,7 @@
     "address": "Home",
     "photo": "vlad.jpg",
     "role": "candidate",
+    "active": true,
     "password": "$2a$12$9nFqToiTmjgfFVJiQvjmreLt4k8X4gGYCETGapSZOb2hHa55t0dDq"
   }
 ]

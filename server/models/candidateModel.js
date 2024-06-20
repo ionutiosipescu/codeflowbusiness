@@ -44,6 +44,12 @@ const candidateSchema = new mongoose.Schema({
   },
   total_score: { type: Number, default: 0 },
   available_points: { type: Number, default: 0 },
+  approve_offer: { type: Boolean, default: false },
+  emails: {
+    offer: { type: Boolean, default: false },
+    decline: { type: Boolean, default: false },
+    interview: { type: Boolean, default: false },
+  },
 });
 
 // Delete Candidate and All Related Interviews & Challenges
