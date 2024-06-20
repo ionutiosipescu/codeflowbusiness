@@ -1,21 +1,39 @@
 const mongoose = require('mongoose');
-const validator = require('validator');
 
 const replySchema = new mongoose.Schema({
-  reply: String,
+  reply: {
+    type: String,
+    maxlength: [50, 'A reply must have less or equal then 50 characters'],
+    minlength: [3, 'A reply must have more or equal then 3 characters'],
+  },
   user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
 });
 
 const commentSchema = new mongoose.Schema({
-  comment: String,
+  comment: {
+    type: String,
+    maxlength: [100, 'A comment must have less or equal then 100 characters'],
+    minlength: [3, 'A comment must have more or equal then 3 characters'],
+  },
   user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   replies: [replySchema],
 });
 
 const challengeSchema = new mongoose.Schema(
   {
-    question: String,
-    answer: String,
+    question: {
+      type: String,
+      maxlength: [
+        300,
+        'A question must have less or equal then 300 characters',
+      ],
+      minlength: [10, 'A question must have more or equal then 10 characters'],
+    },
+    answer: {
+      type: String,
+      maxlength: [300, 'A answer must have less or equal then 300 characters'],
+      minlength: [10, 'A answer must have more or equal then 10 characters'],
+    },
     points: Number,
     receive: Number,
     minimum_admitted_points: Number,

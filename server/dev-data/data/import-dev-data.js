@@ -6,8 +6,6 @@ const User = require('./../../models/userModel');
 const Interview = require('./../../models/interviewModel');
 const Challenge = require('./../../models/challengeModel');
 const Job = require('./../../models/jobModel');
-// const Comment = require('./../../models/commentModel');
-// const Reply = require('./../../models/replyModel');
 
 dotenv.config({ path: './config.env' });
 
@@ -36,12 +34,6 @@ const challenges = JSON.parse(
   fs.readFileSync(`${__dirname}/challenges.json`, 'utf-8'),
 );
 const jobs = JSON.parse(fs.readFileSync(`${__dirname}/jobs.json`, 'utf-8'));
-// const comments = JSON.parse(
-//   fs.readFileSync(`${__dirname}/comments.json`, 'utf-8'),
-// );
-// const replies = JSON.parse(
-//   fs.readFileSync(`${__dirname}/replies.json`, 'utf-8'),
-// );
 const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`, 'utf-8'));
 
 // IMPORT DATA INTO DB
@@ -52,8 +44,6 @@ const importData = async () => {
     await Interview.create(interviews);
     await Challenge.create(challenges);
     await Job.create(jobs);
-    // await Comment.create(comments);
-    // await Reply.create(replies);
     console.log('Data successfully loaded!');
   } catch (err) {
     console.log(err);
@@ -69,8 +59,6 @@ const deleteData = async () => {
     await Interview.deleteMany();
     await Challenge.deleteMany();
     await Job.deleteMany();
-    // await Comment.deleteMany();
-    // await Reply.deleteMany();
     console.log('Data successfully deleted!');
   } catch (err) {
     console.log(err);

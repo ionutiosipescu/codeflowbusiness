@@ -1,9 +1,14 @@
 const mongoose = require('mongoose');
-const validator = require('validator');
 
 const jobSchema = new mongoose.Schema({
-  section: String,
-  role_title: String,
+  section: {
+    type: String,
+    required: [true, 'Please provide a section'],
+  },
+  role_title: {
+    type: String,
+    required: [true, 'Please provide a role title'],
+  },
   candidates: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Candidate' }],
 });
 const Job = mongoose.model('Job', jobSchema);

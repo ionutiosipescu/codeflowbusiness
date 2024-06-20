@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const validator = require('validator');
 const Challenge = require('./challengeModel');
 
 const interviewSchema = new mongoose.Schema(
@@ -15,6 +14,7 @@ const interviewSchema = new mongoose.Schema(
       type: String,
       enum: ['experience', 'technical', 'practical'],
       default: 'experience',
+      required: [true, 'Please provide a interview type'],
     },
     challenges: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Challenge' }],
     candidate: { type: mongoose.Schema.Types.ObjectId, ref: 'Candidate' },

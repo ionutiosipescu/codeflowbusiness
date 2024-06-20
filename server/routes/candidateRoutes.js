@@ -6,9 +6,12 @@ const authController = require('./../controllers/authController');
 
 const router = express.Router();
 
-router.use('/:candidateId/interviews', interviewRouter);
+router.use(
+  authController.protect,
+  authController.restrictTo('admin', 'recruiter'),
+);
 
-router.use(authController.protect);
+router.use('/:candidateId/interviews', interviewRouter);
 
 router
   .route('/top-3-candidates')

@@ -26,7 +26,7 @@ exports.getJob = catchAsync(async (req, res, next) => {
   ]);
 
   if (!job) {
-    return next(new AppError('No candidate found with that ID', 404));
+    return next(new AppError('No job found with that ID', 404));
   }
 
   res.status(200).json({
