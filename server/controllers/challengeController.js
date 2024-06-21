@@ -3,6 +3,7 @@ const APIFeatures = require('./../utils/apiFeatures');
 const interviewController = require('./../controllers/interviewController');
 const AppError = require('./../utils/apiError');
 const catchAsync = require('./../utils/catchAsync');
+const factory = require('./handleFactory');
 
 exports.setInterviewIds = (req, res, next) => {
   if (!req.body.interview) req.body.interview = req.params.interviewId;
@@ -28,21 +29,6 @@ exports.getAllChallenges = catchAsync(async (req, res) => {
   });
 });
 
-exports.getChallenge = catchAsync(async (req, res, next) => {
-  const challenge = await Challenge.findById(req.params.id);
-
-  if (!challenge) {
-    return next(new AppError('No challenge found with that ID', 404));
-  }
-
-  res.status(200).json({
-    status: 'success',
-    data: {
-      challenge,
-    },
-  });
-});
-
 exports.createChallenge = catchAsync(async (req, res, next) => {
   const newChallenge = await Challenge.create(req.body);
 
@@ -58,24 +44,6 @@ exports.createChallenge = catchAsync(async (req, res, next) => {
     status: 'success',
     data: {
       challenge: newChallenge,
-    },
-  });
-});
-
-exports.updateChallenge = catchAsync(async (req, res, next) => {
-  const challenge = await Challenge.findByIdAndUpdate(req.params.id, req.body, {
-    new: true,
-    runValidators: true,
-  });
-
-  if (!challenge) {
-    return next(new AppError('No challenge found with that ID', 404));
-  }
-
-  res.status(200).json({
-    status: 'success',
-    data: {
-      challenge,
     },
   });
 });
@@ -98,3 +66,6 @@ exports.deleteChallenge = catchAsync(async (req, res, next) => {
     data: null,
   });
 });
+
+exports.getChallenge = factory.getOne(Challenge);
+exports.updateChallenge = factory.updateOne(Challenge);

@@ -34,7 +34,7 @@ exports.getMe = catchAsync(async (req, res, next) => {
       if (candidate.emails.interview) stats.interviews += 1;
     });
 
-    user._doc.stats = stats; // Include the stats in the response
+    user._doc.stats = stats;
   }
 
   res.status(200).json({

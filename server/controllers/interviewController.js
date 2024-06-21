@@ -3,6 +3,7 @@ const candidateController = require('./../controllers/candidateController');
 const APIFeatures = require('./../utils/apiFeatures');
 const AppError = require('./../utils/apiError');
 const catchAsync = require('./../utils/catchAsync');
+const factory = require('./handleFactory');
 
 exports.updateInterviewChallenges = async (
   interviewId,
@@ -75,24 +76,6 @@ exports.createInterview = catchAsync(async (req, res, next) => {
   });
 });
 
-exports.updateInterview = catchAsync(async (req, res, next) => {
-  const interview = await Interview.findByIdAndUpdate(req.params.id, req.body, {
-    new: true,
-    runValidators: true,
-  });
-
-  if (!interview) {
-    return next(new AppError('No interview found with that ID', 404));
-  }
-
-  res.status(200).json({
-    status: 'success',
-    data: {
-      interview,
-    },
-  });
-});
-
 exports.deleteInterview = catchAsync(async (req, res, next) => {
   const interview = await Interview.findOneAndDelete({ _id: req.params.id });
 
@@ -111,3 +94,5 @@ exports.deleteInterview = catchAsync(async (req, res, next) => {
     data: null,
   });
 });
+
+exports.updateInterview = factory.updateOne(Interview);
