@@ -2,13 +2,73 @@
   {
     "section": "Front End",
     "role_title": "React Developer",
-    "candidates": ["666c9356ff0737771412ea60", "5c8a1d5b0190b214360dc057"],
+    "candidates": ["666c9356ff0737771412ea60", "5c88fa8cf4afda39709c2955"],
     "_id": "66705cf61231157bb83786ae"
   },
   {
     "section": "Front End",
     "role_title": "Angular Developer",
-    "candidates": ["5c8a1d5b0190b214360dc057"],
+    "candidates": ["666c9356ff0737771412ea61"],
     "_id": "66705cf61231157bb83786af"
+  },
+  {
+    "section": "Back End",
+    "role_title": "Node.js Developer",
+    "candidates": ["5c88fa8cf4afda39709c2956"],
+    "_id": "66705cf61231157bb83786b0"
+  },
+  {
+    "section": "Back End",
+    "role_title": "Python Developer",
+    "candidates": ["666c9356ff0737771412ea62"],
+    "_id": "66705cf61231157bb83786b1"
+  },
+  {
+    "section": "DevOps",
+    "role_title": "AWS Engineer",
+    "candidates": ["5c88fa8cf4afda39709c2957"],
+    "_id": "66705cf61231157bb83786b2"
+  },
+  {
+    "section": "DevOps",
+    "role_title": "Kubernetes Specialist",
+    "candidates": ["666c9356ff0737771412ea63"],
+    "_id": "66705cf61231157bb83786b3"
+  },
+  {
+    "section": "Database",
+    "role_title": "SQL Database Administrator",
+    "candidates": ["5c88fa8cf4afda39709c2958"],
+    "_id": "66705cf61231157bb83786b4"
+  },
+  {
+    "section": "Database",
+    "role_title": "NoSQL Database Engineer",
+    "candidates": ["666c9356ff0737771412ea64"],
+    "_id": "66705cf61231157bb83786b5"
+  },
+  {
+    "section": "Mobile Development",
+    "role_title": "iOS Developer",
+    "candidates": ["5c88fa8cf4afda39709c2959"],
+    "_id": "66705cf61231157bb83786b6"
+  },
+  {
+    "section": "Mobile Development",
+    "role_title": "Android Developer",
+    "candidates": ["666c9356ff0737771412ea65"],
+    "_id": "66705cf61231157bb83786b7"
+  },
+  {
+    "section": "QA Testing",
+    "role_title": "Automation Tester",
+    "candidates": ["666c9356ff0737771412ea65"],
+    "_id": "66705cf61231157bb83786b8"
+  },
+  {
+    "section": "QA Testing",
+    "role_title": "Manual Tester",
+    "candidates": ["666c9356ff0737771412ea65"],
+    "_id": "66705cf61231157bb83786b9"
   }
 ]

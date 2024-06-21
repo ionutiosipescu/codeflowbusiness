@@ -1,88 +1,435 @@
 [
   {
-    "question": "Tell me about a project you worked on where you faced a difficult technical challenge. How did you approach it, and what did you learn from the experience?",
-    "answer": "I dont work",
+    "question": "Describe a time when you had to quickly learn a new technology for a project. How did you manage it?",
+    "answer": "I took a structured approach to learning, breaking down the technology into manageable parts.",
     "points": 10,
-    "receive": 10,
-    "minimum_admitted_points": 8,
+    "receive": 9,
+    "minimum_admitted_points": 7,
     "comments": [
       {
         "comment": "I wish for a more detailed answer with more examples.",
-        "user": "5c8a1d5b0190b214360dc057",
+        "user": "5c8a24282f8fb814b56fa18f",
         "replies": [
           {
             "reply": "Is ok from my side",
-            "user": "5c8a355b14eb5c17645c9109",
+            "user": "5c8a24402f8fb814b56fa190",
             "_id": "c083c42a2f099d79c3ccb6e9"
           }
         ],
         "_id": "6e564f79c96d446e8a814795"
       }
     ],
-    "_id": "d8726857af860f8ba331e624",
-    "interview": "bd6a276100bce5ce13c4c699"
+    "_id": "b0bd1110a5b88a2095660014",
+    "interview": "57830a7d278f0f013f2a1b63"
   },
   {
-    "question": "Tell me about a project you worked on where you faced a difficult technical challenge. How did you approach it, and what did you learn from the experience?",
-    "answer": "I dont work",
+    "question": "How do you handle tight deadlines and multiple projects simultaneously?",
+    "answer": "I prioritize tasks, manage my time effectively, and communicate clearly with my team.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660015",
+    "interview": "57830a7d278f0f013f2a1b63"
+  },
+  {
+    "question": "Can you give an example of a bug you fixed in a complex system?",
+    "answer": "I traced the issue through multiple layers of the application and found a misconfiguration.",
     "points": 10,
     "receive": 10,
     "minimum_admitted_points": 8,
     "comments": [],
-    "_id": "b0bd1110a5b88a2095660013",
-    "interview": "bd6a276100bce5ce13c4c699"
+    "_id": "b0bd1110a5b88a2095660016",
+    "interview": "57830a7d278f0f013f2a1b64"
   },
   {
-    "question": "Tell me about a project you worked on where you faced a difficult technical challenge. How did you approach it, and what did you learn from the experience?",
-    "answer": "I dont work",
+    "question": "Explain a situation where you had to optimize code for performance.",
+    "answer": "I refactored the codebase to reduce redundancy and improve execution speed.",
     "points": 10,
-    "receive": 10,
+    "receive": 9,
     "minimum_admitted_points": 8,
     "comments": [],
-    "_id": "55d3aee27416d9621e2e60a1",
-    "interview": "bd6a276100bce5ce13c4c699"
+    "_id": "b0bd1110a5b88a2095660017",
+    "interview": "57830a7d278f0f013f2a1b64"
   },
   {
-    "question": "What are you doing this summer ?",
-    "answer": "I will go to beach, to my countryhome and so one",
+    "question": "How do you ensure the quality of your code?",
+    "answer": "I write unit tests, perform code reviews, and follow coding standards.",
     "points": 10,
     "receive": 10,
-    "minimum_admitted_points": 8,
-    "comments": [
-      {
-        "comment": "I wish I would became a multimillion",
-        "user": "5c8a1d5b0190b214360dc057",
-        "replies": [
-          {
-            "reply": "So do I mister boss",
-            "user": "5c8a355b14eb5c17645c9109",
-            "_id": "5c88fa8cf4afda39709c2975"
-          }
-        ],
-        "_id": "5c8a22c62f8fb814b56fa18b"
-      }
-    ],
-    "_id": "5c88fa8cf4afda39709c296f",
-    "interview": "5c8a21f22f8fb814b56fa18a"
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660018",
+    "interview": "57830a7d278f0f013f2a1b65"
   },
   {
-    "question": "What the heck we are doing here ?",
-    "answer": "I dont know you say",
+    "question": "What is the most challenging bug you have encountered, and how did you resolve it?",
+    "answer": "I used a combination of debugging tools and logs to identify and fix the issue.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660019",
+    "interview": "57830a7d278f0f013f2a1b65"
+  },
+  {
+    "question": "Describe your experience with continuous integration and continuous deployment (CI/CD).",
+    "answer": "I have set up CI/CD pipelines using Jenkins and GitLab CI.",
     "points": 10,
     "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660020",
+    "interview": "57830a7d278f0f013f2a1b66"
+  },
+  {
+    "question": "How do you handle conflicts within a development team?",
+    "answer": "I address conflicts directly, facilitating open communication and finding common ground.",
+    "points": 10,
+    "receive": 9,
     "minimum_admitted_points": 8,
     "comments": [],
-    "_id": "5c88fa8cf4afda39709c296e",
-    "interview": "5c8a21f22f8fb814b56fa18a"
+    "_id": "b0bd1110a5b88a2095660021",
+    "interview": "57830a7d278f0f013f2a1b66"
   },
   {
-    "question": "Did you watch the new sow named The Rockie",
-    "answer": "Yes is sick I watch it with my girl",
+    "question": "Explain a time when you had to debug a production issue.",
+    "answer": "I used monitoring tools to analyze logs and identify the root cause.",
     "points": 10,
     "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660022",
+    "interview": "57830a7d278f0f013f2a1b67"
+  },
+  {
+    "question": "Describe a situation where you improved the performance of an application.",
+    "answer": "I implemented caching and optimized database queries.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660023",
+    "interview": "57830a7d278f0f013f2a1b67"
+  },
+  {
+    "question": "How do you stay updated with the latest industry trends and technologies?",
+    "answer": "I regularly read tech blogs, attend webinars, and participate in online communities.",
+    "points": 10,
+    "receive": 9,
     "minimum_admitted_points": 8,
     "comments": [],
-    "_id": "5c88fa8cf4afda39709c296d",
-    "interview": "5c8a21f22f8fb814b56fa18a"
+    "_id": "b0bd1110a5b88a2095660024",
+    "interview": "57830a7d278f0f013f2a1b68"
+  },
+  {
+    "question": "Can you describe your approach to code refactoring?",
+    "answer": "I follow best practices, ensuring that the code is clean and maintainable.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660025",
+    "interview": "57830a7d278f0f013f2a1b68"
+  },
+  {
+    "question": "Tell me about a time when you had to implement a feature with limited requirements.",
+    "answer": "I clarified requirements through discussions and built a prototype for feedback.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660026",
+    "interview": "57830a7d278f0f013f2a1b69"
+  },
+  {
+    "question": "How do you manage technical debt in a project?",
+    "answer": "I address it incrementally, prioritizing critical areas to maintain project velocity.",
+    "points": 10,
+    "receive": 9,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660027",
+    "interview": "57830a7d278f0f013f2a1b69"
+  },
+  {
+    "question": "What strategies do you use to ensure your code is secure?",
+    "answer": "I follow security best practices, perform code reviews, and use static analysis tools.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660028",
+    "interview": "57830a7d278f0f013f2a1b70"
+  },
+  {
+    "question": "Describe a time when you had to mentor a junior developer.",
+    "answer": "I provided guidance, code reviews, and regular feedback to help them grow.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660029",
+    "interview": "57830a7d278f0f013f2a1b70"
+  },
+  {
+    "question": "Explain your experience with agile methodologies.",
+    "answer": "I have worked in Scrum teams, participating in sprints, stand-ups, and retrospectives.",
+    "points": 10,
+    "receive": 9,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660030",
+    "interview": "57830a7d278f0f013f2a1b71"
+  },
+  {
+    "question": "How do you approach writing unit tests?",
+    "answer": "I write tests to cover edge cases and ensure code correctness.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660031",
+    "interview": "57830a7d278f0f013f2a1b71"
+  },
+  {
+    "question": "Describe a situation where you had to collaborate with a non-technical team member.",
+    "answer": "I explained technical concepts in simple terms and actively listened to their needs.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660032",
+    "interview": "57830a7d278f0f013f2a1b72"
+  },
+  {
+    "question": "What tools do you use for version control, and how do you manage branches?",
+    "answer": "I use Git for version control, following a branching strategy like GitFlow.",
+    "points": 10,
+    "receive": 9,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660033",
+    "interview": "57830a7d278f0f013f2a1b72"
+  },
+  {
+    "question": "How do you handle a situation where you disagree with a peer's code implementation?",
+    "answer": "I discuss the differences openly and suggest alternatives for mutual agreement.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660034",
+    "interview": "57830a7d278f0f013f2a1b73"
+  },
+  {
+    "question": "Can you provide an example of a time when you improved an existing system?",
+    "answer": "I refactored the system to enhance scalability and maintainability.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660035",
+    "interview": "57830a7d278f0f013f2a1b73"
+  },
+  {
+    "question": "What is your approach to handling critical production issues?",
+    "answer": "I prioritize quick resolution while ensuring thorough investigation and long-term fixes.",
+    "points": 10,
+    "receive": 9,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660036",
+    "interview": "57830a7d278f0f013f2a1b74"
+  },
+  {
+    "question": "How do you ensure your projects stay on track and meet deadlines?",
+    "answer": "I use project management tools and regular check-ins to monitor progress.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660037",
+    "interview": "57830a7d278f0f013f2a1b74"
+  },
+  {
+    "question": "Describe a time when you had to implement a complex algorithm.",
+    "answer": "I broke down the algorithm into smaller, manageable components and tested each part.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660038",
+    "interview": "57830a7d278f0f013f2a1b75"
+  },
+  {
+    "question": "How do you handle receiving feedback on your code?",
+    "answer": "I view feedback as an opportunity to learn and improve, and I address it constructively.",
+    "points": 10,
+    "receive": 9,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660039",
+    "interview": "57830a7d278f0f013f2a1b75"
+  },
+  {
+    "question": "Explain a scenario where you had to work with legacy code.",
+    "answer": "I carefully reviewed the existing code, wrote tests, and made incremental improvements.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660040",
+    "interview": "57830a7d278f0f013f2a1b76"
+  },
+  {
+    "question": "What do you consider when estimating the time for a new task?",
+    "answer": "I consider the complexity, potential challenges, and any dependencies.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660041",
+    "interview": "57830a7d278f0f013f2a1b76"
+  },
+  {
+    "question": "How do you keep your skills up to date?",
+    "answer": "I engage in continuous learning through courses, certifications, and side projects.",
+    "points": 10,
+    "receive": 9,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660042",
+    "interview": "57830a7d278f0f013f2a1b77"
+  },
+  {
+    "question": "Describe a project where you had to collaborate with a remote team.",
+    "answer": "We used communication tools effectively and held regular virtual meetings to stay aligned.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660043",
+    "interview": "57830a7d278f0f013f2a1b77"
+  },
+  {
+    "question": "How do you approach troubleshooting an issue you are unfamiliar with?",
+    "answer": "I research, ask for help if needed, and methodically test possible solutions.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660044",
+    "interview": "57830a7d278f0f013f2a1b78"
+  },
+  {
+    "question": "What is your experience with cloud services?",
+    "answer": "I have worked with AWS and Azure, managing deployments and scaling applications.",
+    "points": 10,
+    "receive": 9,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660045",
+    "interview": "57830a7d278f0f013f2a1b78"
+  },
+  {
+    "question": "Describe a time when you had to balance multiple high-priority tasks.",
+    "answer": "I prioritized tasks based on urgency and importance, managing my time effectively.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660046",
+    "interview": "57830a7d278f0f013f2a1b79"
+  },
+  {
+    "question": "How do you ensure your code is maintainable by others?",
+    "answer": "I write clean, well-documented code and follow coding standards.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660047",
+    "interview": "57830a7d278f0f013f2a1b79"
+  },
+  {
+    "question": "What do you do if you realize you will miss a deadline?",
+    "answer": "I communicate proactively with stakeholders and work on a revised plan.",
+    "points": 10,
+    "receive": 9,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660048",
+    "interview": "57830a7d278f0f013f2a1b80"
+  },
+  {
+    "question": "How do you handle repetitive tasks in your work?",
+    "answer": "I automate repetitive tasks to improve efficiency and reduce errors.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660049",
+    "interview": "57830a7d278f0f013f2a1b80"
+  },
+  {
+    "question": "Describe a time when you had to deliver a project with incomplete requirements.",
+    "answer": "I engaged with stakeholders to clarify requirements and delivered an iterative solution.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660050",
+    "interview": "57830a7d278f0f013f2a1b81"
+  },
+  {
+    "question": "What is your approach to handling negative feedback from a client?",
+    "answer": "I address the feedback professionally, understanding the concerns and working on solutions.",
+    "points": 10,
+    "receive": 9,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660051",
+    "interview": "57830a7d278f0f013f2a1b81"
+  },
+  {
+    "question": "How do you ensure that your code is scalable?",
+    "answer": "I design with scalability in mind, considering future growth and modularity.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660052",
+    "interview": "57830a7d278f0f013f2a1b82"
+  },
+  {
+    "question": "Describe a project where you had to meet stringent security requirements.",
+    "answer": "I followed industry standards, performed security audits, and implemented best practices.",
+    "points": 10,
+    "receive": 8,
+    "minimum_admitted_points": 7,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660053",
+    "interview": "57830a7d278f0f013f2a1b82"
+  },
+  {
+    "question": "What techniques do you use to debug a program?",
+    "answer": "I use debugging tools, write tests, and review logs to identify and fix issues.",
+    "points": 10,
+    "receive": 9,
+    "minimum_admitted_points": 8,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660054",
+    "interview": "57830a7d278f0f013f2a1b82"
+  },
+  {
+    "question": "How do you manage your workload to avoid burnout?",
+    "answer": "I prioritize tasks, take regular breaks, and maintain a healthy work-life balance.",
+    "points": 10,
+    "receive": 10,
+    "minimum_admitted_points": 9,
+    "comments": [],
+    "_id": "b0bd1110a5b88a2095660055",
+    "interview": "57830a7d278f0f013f2a1b82"
   }
 ]

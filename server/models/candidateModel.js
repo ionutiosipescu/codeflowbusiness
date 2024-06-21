@@ -44,13 +44,13 @@ const candidateSchema = new mongoose.Schema({
   experience: Number,
   last_position: {
     type: String,
-    maxlength: [25, 'A role must have less or equal then 25 characters'],
+    maxlength: [35, 'A role must have less or equal then 35 characters'],
     minlength: [5, 'A role must have more or equal then 5 characters'],
   },
   last_company: {
     type: String,
     maxlength: [25, 'A company must have less or equal then 25 characters'],
-    minlength: [5, 'A company must have more or equal then 5 characters'],
+    minlength: [3, 'A company must have more or equal then 3 characters'],
   },
   rate: {
     type: Number,
